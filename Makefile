@@ -12,7 +12,7 @@ PKG_VERSION:=0.0.3
 PKG_RELEASE:=1
 
 PKG_SOURCE_PROTO:=git
-PKG_SOURCE_URL:=https://github.com/shadowsocks/simple-obfs.git
+PKG_SOURCE_URL:=https://github.com/ReinForce-II/simple-obfs.git
 PKG_SOURCE_SUBDIR:=$(PKG_NAME)-$(PKG_VERSION)-$(PKG_RELEASE)
 PKG_SOURCE_VERSION:=1f5dcace9ee50da6144824b9db9e89be889a9033
 PKG_SOURCE:=$(PKG_NAME)-$(PKG_VERSION)-$(PKG_SOURCE_VERSION).tar.gz
@@ -34,7 +34,7 @@ define Package/simple-obfs/Default
 	SECTION:=net
 	CATEGORY:=Network
 	TITLE:=Simple-obfs
-	URL:=https://github.com/shadowsocks/simple-obfs
+	URL:=https://github.com/ReinForce-II/simple-obfs
 	DEPENDS:=+libev +libudns +libpthread +libsodium
 endef
 
